@@ -72,7 +72,7 @@ const projectsData: Project[] = [
 ];
 
 // Project Card Component
-const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClick }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ project/*, onClick */}) => {
   return (
     <div className="project-card" /*onClick={onClick}*/>
       <img src={project.imageUrl} alt={project.title} className="project-img" />
